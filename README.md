@@ -31,6 +31,8 @@ The detail of dataset **collection, structure, annotation, format** are describe
 
 
 ## Baseline model
+Demo of Self Driving Anonymization model is available in Hugging Face:  
+[PP4AV Self Driving Anonymization](https://huggingface.co/spaces/khaclinh/self-driving-anonymization)
 
 ## Evaluation
 
