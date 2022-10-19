@@ -1,6 +1,6 @@
 # PP4AV data manipulation
 
-## Process data: Using repo ds_gdpr_eval 
+## Process data:
 
 - Split dataset into `train/val/test`: edit `image path`, `label path`, and `save directory` in `utils/config/dataset_split_config.yaml` and run
 ```
