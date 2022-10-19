@@ -1,0 +1,20 @@
+loguru==0.5.3
+matplotlib==3.3.4
+numpy==1.19.5
+opencv_python==4.5.3.56
+PyYAML==6.0
+recommonmark==0.7.1
+setuptools==58.0.4
+Sphinx==3.2.1
+sphinx_rtd_theme==0.5.0
+tabulate==0.8.7
+thop==0.0.31.post2005241907
+tqdm==4.31.1
+tensorboard==2.3.0
+
+# Deployment
+onnx==1.8.1
+onnx_simplifier==0.3.5
+onnxruntime==1.8.0
+onnxruntime_gpu==1.8.0
+openvino==2021.4.2

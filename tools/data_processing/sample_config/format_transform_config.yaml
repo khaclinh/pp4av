@@ -1,0 +1,33 @@
+eval: True # True for prediction, otherwise False for ground truth 
+labels: ['face', 'plate']
+img_folder_paths: [
+    '/data/netherlands_day',
+    '/data/netherlands_night',
+    '/data/paris_downtown_5mins',
+    '/data/strasbourg',
+    '/data/stuttgart',
+    '/data/switzerland_highway',
+    '/data/zurich'
+]
+txt_folder_paths: [
+    '/labels/netherlands_day/obj_train_data/',
+    '/labels/netherlands_night/obj_train_data/',
+    '/labels/paris_downtown_5mins/obj_train_data/',
+    '/labels/strasbourg/obj_train_data/',
+    '/labels/stuttgart/obj_train_data/',
+    '/labels/switzerland_highway/obj_train_data/',
+    '/labels/zurich/obj_train_data/'
+
+# prediction 
+    # '/baseline_model_pred/netherlands_day',
+    # '/baseline_model_pred/netherlands_night',
+    # '/baseline_model_pred/paris_downtown_5mins',
+    # '/baseline_model_pred/strasbourg',
+    # '/baseline_model_pred/stuttgart',
+    # '/baseline_model_pred/switzerland_highway',
+    # '/baseline_model_pred/zurich'
+  
+]
+
+#
+save_path: 'annotation.json'

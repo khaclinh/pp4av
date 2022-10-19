@@ -1,0 +1,5 @@
+# true_annotation_path: ['./sample/input/labels/sample_truth.json']
+# pred_annotation_path: ['./sample/input/predictions/sample_pred.json']
+# save_path: ['sample/output/viz']
+# src_img_root: 'sample/input/images'
+# dest_img_root: 'sample/input/images'

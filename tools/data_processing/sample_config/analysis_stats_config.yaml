@@ -1,0 +1,11 @@
+# true_annotation_path: ['./sample/input/labels/sample_truth.json']
+# pred_annotation_path: ['./sample/input/predictions/sample_pred.json']
+# save_path: ['sample/output/viz']
+# src_img_root: 'sample/input/images'
+# dest_img_root: 'sample/input/images'
+
+nms_threshold: 0.3
+true_conf_threshold: 0.3
+pred_conf_threshold: 0.05
+size_threshold: 100
+overlapping_tp_threshold: 0.5
