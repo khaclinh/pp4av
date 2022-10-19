@@ -23,7 +23,7 @@ class CocoDataset():
         self.true_annotation_path = true_annotation_path
         self.pred_annotation_path = pred_annotation_path
         
-        self.root_src = "/raid/cuongvo/anhnq47/datasets/GDPR_testset/labelled_test_set/data/"
+        self.root_src = "/data/"
 
         with open(true_annotation_path, 'r') as f:
             self.coco = json.load(f)
